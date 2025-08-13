@@ -3,6 +3,19 @@
 
 <h2>Description</h2>
 <p>This website application is a CGI program written in C++ that can be used to create an account for a user or a service provider, and list things such as location, email, or role, that is all stored securely in MariaDB. Both clients and providers can see each other and send connection requests, which they can accept or reject. Both of these accounts have minimum privileges to ensure security, while an administrator account has access to modify anything.</p>
+<br />
+
+<p>The purpose of this project was to manually build the security features that protect a web application. By using C++ and the low-level CGICC library, I was able to implement defenses against common web threats from first principles, demonstrating a practical and deep understanding of web security concepts. </p>
+
+
+<h2>Goals and Purpose</h2>
+<ul>
+<li><b>Implement Security from Scratch: </b>The goal was not just to build a website, but to build a secure one by hand-coding the defenses against threats defined by the Open Web Application Security Project (OWASP). </li>
+<li><b>Understand the HTTP Lifecycle:</b>To manage the entire request/response cycle, including parsing headers, managing cookies for sessions, and generating HTML responses without the help of a framework.</li>
+<li><b>Secure Database Interaction:</b>To connect to a MariaDB database and ensure all queries were safe from SQL injection by using prepared statements.</li>
+</ul>
+<br /><br />
+
 
 <h2>Features</h2>
 <ul>
