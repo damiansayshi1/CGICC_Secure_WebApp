@@ -116,16 +116,7 @@ What values are held inside a cookie: <br/>
 Sessions will expire automatically after 5 minutes (handled by the cookie): <br/>
 <img src="https://i.imgur.com/SQ07QWe.png" height="80%" width="80%" alt="CGICC_website"/>  
 <br />
-<br />
-<br />
-<h2>How to run:</h2>
-<ol>
-<li>Download the `.pkt` file from this repository.</li>
-<li>Install Cisco Packet Tracer (https://www.netacad.com/courses/packet-tracer).</li>
-<li>Open the `.pkt` file with Cisco Packet Tracer.</li>
-<li>You can view all device configurations, run simulations (`ping`, etc.), and explore the network topology in detail.</li>
-  
-</ol>
+
 </p>
 
 
